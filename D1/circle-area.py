@@ -13,4 +13,3 @@ try:
 	print("Your circle's area is:", math.pow(radius, 2)*math.pi)
 except:
 	print("Error: Please provide a number!!")
-	break
