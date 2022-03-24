@@ -14,18 +14,18 @@ while True:
 		if age < 13:
 			print("""
 Hi {}! You are {}!
-			""".format(user_name, "just a KID! Keep eating, OK"))
+			""".format(user_name, "just a KID!"))
 		elif 13 <= age <= 19:
 			print("""
 Hi {}! You are {}!
-			""".format(user_name, "still a TEENAGER! Behave, OK"))
+			""".format(user_name, "still a TEENAGER!"))
 		else:
 			print("""
 Hi {}! You are {}!
-			""".format(user_name, "an ADULT now so be responsible! OK"))
+			""".format(user_name, "an ADULT now!"))
 		break
 	except:
-		print("Error: Not an integer number!!! You must be a kid?!")
+		print("Error: Not an integer number!!!")
 		continue
 
 print("End of Program!")
